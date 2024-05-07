@@ -60,6 +60,8 @@ class WeatherScreen extends StatelessWidget {
   return Icons.error; // Default icon if very cold or no matching range
 }
 
+  #public static Future<List<MyWeatherData>> = apidart.getwetherData(<send zip code>);
+  #for loop get wetherdata to get the city
 
   @override
   Widget build(BuildContext context) {
